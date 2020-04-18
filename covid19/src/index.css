@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Domine', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: large;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+
+.intro-2 {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
+  background-size: cover;
+}
+.view {
+  margin-top: -56px;
+}
+.navbar {
+  z-index: 1;
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: #4285F4;
+  }
+}
+
+.nav-item a{
+
+  color: white;
+}
