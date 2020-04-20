@@ -1,5 +1,4 @@
 import React from 'react';
-import cx from 'classnames';
 import styles from './Card.module.css';
 import CountUp from 'react-countup';
 
